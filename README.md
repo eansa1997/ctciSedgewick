@@ -9,7 +9,7 @@ Book/Code source: https://algs4.cs.princeton.edu/home/
 Ctci library was not used because code contained was deprecated. 
 
 
-## Folder Structure
+## Folder Structure (This a VS Code project)
 
 The workspace contains two folders by default, where:
 
