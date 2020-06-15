@@ -10,7 +10,7 @@ public class answer {
         StdOut.println(test1+", "+test2+" | "+ isPermutation1(test1, test2));
     }
 
-    // This method has O(logN ) time due to sorting. 
+    // This method has O(N logN ) time due to sorting. 
     public static boolean isPermutation1(String a, String b){
         if(a.length() != b.length())
             return false;
