@@ -13,7 +13,7 @@ public class answer {
     public static boolean isOneAway(String one, String two){
         if(Math.abs( one.length() - two.length() ) > 1)
             return false;
-            boolean diff = false;
+        boolean diff = false;
         for(int i = 0, j = 0; i < one.length() && j < two.length(); i++, j++ ){
             if(one.charAt(i) != two.charAt(j)){
                 // more than one edit return false
